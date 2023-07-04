@@ -9,7 +9,7 @@ using json = nlohmann::json;
 /* Note that uWS::SSLApp({options}) is the same as uWS::App() when compiled without SSL support */
 
 int main() {
-	/* Overly simple hello world app */
+	/* Chose a secret path to avoid fake updates*/
 	
 	uWS::SSLApp({
 	  .key_file_name = "/path_to/YOURPRIVATE.key",

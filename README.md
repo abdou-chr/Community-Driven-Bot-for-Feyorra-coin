@@ -1,4 +1,4 @@
-# Feyorra-a-Community-Driven-Bot-for-Feyorra-coin
+#Community-Driven-Bot-for-Feyorra-coin
 
 Dependencies : 
 

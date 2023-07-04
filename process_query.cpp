@@ -34,6 +34,8 @@ int process_query(std::string sender_message_text = "" , long int sender_chat_id
         reply_markup["inline_keyboard"] = inline_keyboard ;  
     
         response["reply_markup"] = reply_markup ;
+
+		response["reply_to_message_id"] = sender_message_id ;
          
 		sendMessage( response  ) ; 		
 	}
@@ -199,6 +201,8 @@ int process_query(std::string sender_message_text = "" , long int sender_chat_id
 	}
 	 
 	else if (sender_message_text == "/start"){
+
+		json response ; 
 		
 		reply = "Welcome " + sender_first_name + " please chose from the list of commands to get started." ; 
 		

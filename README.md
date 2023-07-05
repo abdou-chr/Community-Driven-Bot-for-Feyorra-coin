@@ -2,7 +2,9 @@
 
 Dependencies : 
 
-1-zlib 
-2-lcpr
-3-uwebsokcets
-4-openssl 
+-Zlib
+-Lcpr
+-UwebSockets
+-Openssl
+-nlohmann json
+
